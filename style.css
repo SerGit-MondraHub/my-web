@@ -1,7 +1,7 @@
 body
     {background-color: cyan;}
 
-figure
+#welcome figure
     {
         height: 15em;
         width: 15em; 
@@ -11,7 +11,7 @@ figure
         border-radius: 100%;
     }
 
-figure img
+#welcome img
     {
         height:200%;
         width: 200%; 
@@ -20,11 +20,18 @@ figure img
        position:relative;
        top: -20%;
        left: -35%;
-       cursor: pointer;
     }
 
 #welcome
     {
         cursor: pointer;
+    }
+
+#circle h2
+    {
+        position:absolute;
+        z-index: 3;
+        top: 35%;
+        color:#FFF;
     }
 

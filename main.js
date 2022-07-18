@@ -1,14 +1,11 @@
-/*let bod = document.querySelector('header');
+document.getElementById('front').hidden=true;
 
-let welc= document.getElementById('welcome');
 
-function hide()
-    {document.body.removeChild(bod);
-    document.body.innerHTML="TESTING";
-    }
+// let intro= document.getElementById('welcome');
 
-welc.onclick= hide;*/
-let element= document.querySelector('img');
 
-element.onclick = function()
-    {document.body.style.backgroundColor='yellow'}
+// intro.onclick= function()
+//     {
+//         //document.getElementById('welcome').hidden=true;
+//         document.body.removeChild(document.getElementById('welcome'));
+//     }
