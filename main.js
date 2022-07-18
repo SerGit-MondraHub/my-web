@@ -1,4 +1,4 @@
-const bod = document.body.querySelector('img');
+const bod = document.querySelector('img');
 
 const welc= document.body.getElementById('welcome');
 
