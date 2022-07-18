@@ -1,8 +1,8 @@
 const bod = document.querySelector('img');
 
-const welc= document.body.getElementById('welcome');
+const welc= document.getElementById('welcome');
 
 function hide
-    {document.body.hidden(bod);}
+    {document.body.removeChild(bod);}
 
 welc.onclick=hide;
