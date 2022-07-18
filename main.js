@@ -1,10 +1,14 @@
-const bod = document.querySelector('header');
+/*let bod = document.querySelector('header');
 
-const welc= document.getElementById('welcome');
+let welc= document.getElementById('welcome');
 
-function hide
+function hide()
     {document.body.removeChild(bod);
-    document.body.innerHTML='TESTING';
+    document.body.innerHTML="TESTING";
     }
 
-welc.onclick=hide;
+welc.onclick= hide;*/
+let element= document.querySelector('img');
+
+element.onclick = function()
+    {document.body.style.backgroundColor='yellow'}

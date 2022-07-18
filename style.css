@@ -20,6 +20,7 @@ figure img
        position:relative;
        top: -20%;
        left: -35%;
+       cursor: pointer;
     }
 
 #welcome
