@@ -1,0 +1,23 @@
+figure
+    {
+        height: 15em;
+        width: 15em; 
+        /*border-radius: 100%;*/
+        border: 10px solid red;
+        overflow:hidden;
+        border-radius: 100%;
+    }
+
+figure img
+    {
+        height:200%;
+        width: 200%; 
+       /*border-radius: 100%;*/
+        box-shadow: 15px 5px 2px 0px ; 
+       position:relative;
+       top: -20%;
+       left: -35%;
+    }
+
+
+
