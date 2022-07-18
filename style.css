@@ -19,5 +19,8 @@ figure img
        left: -35%;
     }
 
-
+#welcome
+    {
+        cursor: pointer;
+    }
 
