@@ -14,13 +14,17 @@ body
         background-image: url(resources/pic.jpg);
         background-size:220%;
         background-position: 35% 20%;
-    
         height: 200px;
         width: 200px; 
-        /* border: 10px solid red; */
         overflow:hidden;
         border-radius: 100%;
     }
+
+/* #welcome figcaption:hover
+    {
+        background-color: hsl(0, 0%, 0%, 1);
+        content:none;  
+    } */
 
 #welcome figcaption
     {
