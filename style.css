@@ -5,6 +5,7 @@ body
 {
     text-align:center;
     font-size: 1.5em;
+    border:2px solid red;
 }
 
 #welcome figure
@@ -20,11 +21,11 @@ body
         border-radius: 100%;
     }
 
-/* #welcome figcaption:hover
+#welcome figcaption:hover
     {
-        background-color: hsl(0, 0%, 0%, 1);
-        content:none;  
-    } */
+        background-color: hsl(0, 0%, 100%, .3);
+          
+    } 
 
 #welcome figcaption
     {
@@ -42,7 +43,7 @@ body
         text-shadow:-1px -1px 3px white, 1px -1px 3px white, -1px 1px 3px white, 1px 1px 3px white;      
     }
 
-
-
+#front-page
+    {visibility:hidden;}
 
 

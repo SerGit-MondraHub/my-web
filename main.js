@@ -1,16 +1,24 @@
-/*document.getElementById('front').hidden=true;
+// document.getElementById('front').hidden=true;
 
 
- let intro= document.getElementById('welcome');
-
-
+ /*
  intro.onclick= function()
      {
          //document.getElementById('welcome').hidden=true;
          document.body.removeChild(document.getElementById('welcome'));
-    }*/
+    }
+*/
 
-const enter= document.querySelector('figcaption');
+const enter= document.querySelector('h2');
 
-enter.onmouseclick=function()
-    {document.querySelector('figcaption').hidden=true;}
+enter.parentNode.onmouseover= function()
+    {enter.hidden=true;}
+enter.parentNode.onmouseout= function()
+    {enter.hidden=false;}
+
+enter.parentNode.onclick= function()
+    {
+        document.getElementById('welcome').hidden=true;
+        document.getElementById('front-page').style.visibility='visible';
+    }
+
