@@ -1,37 +1,44 @@
 body
-    {background-color: cyan;}
+    /* {background-color: cyan;} */
+
+#welcome
+{
+    text-align:center;
+    font-size: 1.5em;
+}
 
 #welcome figure
     {
-        height: 15em;
-        width: 15em; 
-        /*border-radius: 100%;*/
-        border: 10px solid red;
+        cursor:pointer;
+        display:inline-flex;
+        background-image: url(resources/pic.jpg);
+        background-size:220%;
+        background-position: 35% 20%;
+    
+        height: 200px;
+        width: 200px; 
+        /* border: 10px solid red; */
         overflow:hidden;
         border-radius: 100%;
     }
 
-#welcome img
+#welcome figcaption
     {
-        height:200%;
-        width: 200%; 
-       /*border-radius: 100%;*/
-        box-shadow: 15px 5px 2px 0px ; 
-       position:relative;
-       top: -20%;
-       left: -35%;
+        display:inline-flex;
+        height:100%;
+        width:100%;
+        margin: auto;
+        /* background-color: hsl(0, 0%, 0%, 1); */
     }
 
-#welcome
+#welcome h2
     {
-        cursor: pointer;
+        margin:auto;
+        color:black;  
+        text-shadow:-1px -1px 3px white, 1px -1px 3px white, -1px 1px 3px white, 1px 1px 3px white;      
     }
 
-#circle h2
-    {
-        position:absolute;
-        z-index: 3;
-        top: 35%;
-        color:#FFF;
-    }
+
+
+
 
