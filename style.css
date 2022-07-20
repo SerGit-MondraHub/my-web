@@ -1,10 +1,15 @@
 body
-    {background-color: rgb(255, 255, 152);}
+    {
+        background-color: rgb(255, 255, 152);
+        
+    }
+
+/*INTRO*/
 
 #welcome
 {
     text-align:center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     border:15px ridge rgb(96, 128, 0);
 }
 
@@ -19,6 +24,7 @@ body
         width: 200px; 
         overflow:hidden;
         border-radius: 100%;
+        box-shadow: 5px 5px 5px, -5px 5px 5px yellowgreen, 5px -5px 5px yellowgreen, -5px -5px 5px yellow;
     }
 
 #welcome figcaption:hover
@@ -39,8 +45,8 @@ body
 #welcome h2
     {
         margin:auto;
-        color: rgb(216, 221, 62);  
-        text-shadow:-1px -1px 1.5px white, 1px -1px 1.5px white, -1px 1px 1.5px white, 1px 1px 1.5px white;      
+        color: rgb(255, 255, 255);  
+        text-shadow:-1px -1px 1.5px gold, 1px -1px 1.5px gold, -1px 1px 1.5px , 1px 1px 1.5px white;      
     }
 
 #front-page
