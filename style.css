@@ -1,11 +1,11 @@
 body
-    /* {background-color: cyan;} */
+    {background-color: rgb(255, 255, 152);}
 
 #welcome
 {
     text-align:center;
     font-size: 1.5em;
-    border:2px solid red;
+    border:15px ridge rgb(96, 128, 0);
 }
 
 #welcome figure
@@ -33,14 +33,14 @@ body
         height:100%;
         width:100%;
         margin: auto;
-        /* background-color: hsl(0, 0%, 0%, 1); */
+        background-color: hsl(0, 0%, 0%, .4);
     }
 
 #welcome h2
     {
         margin:auto;
-        color:black;  
-        text-shadow:-1px -1px 3px white, 1px -1px 3px white, -1px 1px 3px white, 1px 1px 3px white;      
+        color: rgb(216, 221, 62);  
+        text-shadow:-1px -1px 1.5px white, 1px -1px 1.5px white, -1px 1px 1.5px white, 1px 1px 1.5px white;      
     }
 
 #front-page
