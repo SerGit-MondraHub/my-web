@@ -1,12 +1,13 @@
 *{border: 2px solid red;}
 
+
 body
     {
         background-color: rgb(255, 255, 152);
         
     }
 
-/*INTRO*/
+/*INTRO....................*/
 
 #welcome
 {
@@ -51,7 +52,52 @@ body
         text-shadow:-1px -1px 1.5px gold, 1px -1px 1.5px gold, -1px 1px 1.5px , 1px 1px 1.5px white;      
     }
 
+/*FRONT PAGE...........*/
+
 #front-page
     {visibility:hidden;}
 
+header
+    {
+        display:flex;
+        justify-content:space-around;
+    }
 
+/* #grid
+    {
+        display: grid;
+        grid-template-columns:2fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas:
+            'main '
+            'foot foot';
+
+    }
+
+header h1
+    {
+        grid-area: name;
+        background-color: blue;
+    }
+
+nav ul
+    {
+        list-style:none;
+        grid-area: nav;
+    }
+
+main
+    {
+        grid-area: main;
+    }
+
+footer
+    {
+        grid-area: foot;
+    }
+
+header
+    {
+        display:inline-flex
+        grid-area: header;
+    } */
