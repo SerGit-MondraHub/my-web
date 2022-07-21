@@ -19,6 +19,6 @@ enter.parentNode.onmouseout= function()
 enter.parentNode.onclick= function()
     {
         document.getElementById('frame').hidden=true;
-        document.getElementById('front-page').style.visibility='visible';
+        document.getElementById('front-page').style.display='block';
     }
 
