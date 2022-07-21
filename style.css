@@ -1,14 +1,17 @@
 *{border: 2px solid red;}
 
 #frame
-    {border: 15px solid rgb(130, 169, 21);
+    {border:10px inset rgb(96, 128, 0);
     margin:0px;
     padding:0px;}
 
 body
     {
-        background-color: rgb(255, 255, 152);
+        /* background-color: rgb(199, 254, 230); */
+        background: linear-gradient(160deg, rgb(232, 255, 236),rgb(88, 140, 61)
+        );
         margin:0;
+        border: 10px solid rgb(130, 169, 21);
     }
 
 /*INTRO....................*/
@@ -17,7 +20,6 @@ body
 {
     text-align:center;
     font-size: 2.5em;
-    border:10px inset rgb(96, 128, 0);
 }
 
 #welcome figure
@@ -88,12 +90,16 @@ li
     {
         display:flex;
         margin:auto;
-    }  
+    }
+    
+section h2 
+    {
+        cursor:pointer;
+    }
 
 .content
     {
-        visibility:hidden;
-        z-index:-1;
+        display:inline-block;
     }
 
 footer

@@ -1,13 +1,5 @@
-// document.getElementById('front').hidden=true;
 
-
- /*
- intro.onclick= function()
-     {
-         //document.getElementById('welcome').hidden=true;
-         document.body.removeChild(document.getElementById('welcome'));
-    }
-*/
+//INTRO EVENTS......
 
 const enter= document.querySelector('h2');
 
@@ -18,7 +10,24 @@ enter.parentNode.onmouseout= function()
 
 enter.parentNode.onclick= function()
     {
-        document.getElementById('frame').hidden=true;
+        document.getElementById('welcome').hidden=true;
         document.getElementById('front-page').style.display='block';
     }
 
+//FRONT PAGE EVENTS......
+
+// const subheads= document.querySelector('section').children[0];
+
+const subheads= document.getElementsByTagName('section');
+
+subheads.forEach(element => element[0]);
+
+function test()
+{console.log(subheads);}
+
+test();
+
+/*subheads.onclick= function()
+    {
+        document.body.innerHTML='TEST';
+    }*/
