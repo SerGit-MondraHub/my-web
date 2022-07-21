@@ -16,20 +16,15 @@ enter.parentNode.onclick= function()
 
 //FRONT PAGE EVENTS......
 
-// const subheads= document.querySelector('section').children[0];
+//const subheads= document.querySelector('section').children[0];
 
-// const subheads= document.getElementsByTagName('section');
+let subheads;
 
-// console.log(subheads);
+for (let i=0; i<document.getElementsByTagName('section').length; i++)
+    {subheads=document.getElementsByTagName('section')[i]}
 
-/*subheads.forEach(element => element[0]);
 
-function test()
-{console.log(subheads);}
-
-test();*/
-
-/*subheads.onclick= function()
+subheads.children[0].onclick= function()
     {
         document.body.innerHTML='TEST';
-    }*/
+    }
