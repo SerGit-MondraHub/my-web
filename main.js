@@ -14,9 +14,9 @@ enter.parentNode.onclick= function()
         document.getElementById('front-page').style.display='block';
     }
 
-//FRONT PAGE EVENTS......
+//FRONT PAGE EVENTS..........
 
-//const subheads= document.querySelector('section').children[0];
+//SUBHEADINGS DROPDOWN:
 
 let subheads;
 
@@ -26,5 +26,13 @@ for (let i=0; i<document.getElementsByTagName('section').length; i++)
 
 subheads.children[0].onclick= function()
     {
-        document.body.innerHTML='TEST';
+        if(subheads.children[1].style.display==='inline-block')
+            {
+                subheads.children[1].style.display='none';
+            }
+        else
+            {
+                subheads.children[1].style.display='inline-block';
+        //document.body.innerHTML='TEST'
+            }
     }
