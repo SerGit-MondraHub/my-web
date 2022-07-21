@@ -1,17 +1,21 @@
 *{border: 2px solid red;}
 
-#frame
+html
+    {border: 10px solid rgb(130, 169, 21);}
+
+/* #frame
     {border:10px inset rgb(96, 128, 0);
     margin:0px;
-    padding:0px;}
+    padding:0px;} */
 
 body
     {
         /* background-color: rgb(199, 254, 230); */
+        border:10px inset rgb(96, 128, 0);
+    margin:0px;
         background: linear-gradient(160deg, rgb(232, 255, 236),rgb(88, 140, 61)
         );
         margin:0;
-        border: 10px solid rgb(130, 169, 21);
     }
 
 /*INTRO....................*/

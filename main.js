@@ -18,14 +18,16 @@ enter.parentNode.onclick= function()
 
 // const subheads= document.querySelector('section').children[0];
 
-const subheads= document.getElementsByTagName('section');
+// const subheads= document.getElementsByTagName('section');
 
-subheads.forEach(element => element[0]);
+// console.log(subheads);
+
+/*subheads.forEach(element => element[0]);
 
 function test()
 {console.log(subheads);}
 
-test();
+test();*/
 
 /*subheads.onclick= function()
     {
