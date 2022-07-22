@@ -18,21 +18,21 @@ enter.parentNode.onclick= function()
 
 //SUBHEADINGS DROPDOWN:
 
-let subheads;
+let section;
 
 for (let i=0; i<document.getElementsByTagName('section').length; i++)
     {
-        subheads=document.getElementsByTagName('section')[i];
+        section=document.getElementsByTagName('section')[i];//This makes the "SECTION" variable become each one of the sections that contain a subheading and a paragraph
 
-        subheads.children[0].onclick= function()
-            {
-                if(subheads.children[1].style.display==='inline-block')
+        section.children[0].onclick= function()
+            {//The first child element of each SECTION is the subheading, the second one is the paragraph
+                if(section.children[1].style.display==='inline-block')
                     {
-                        subheads.children[1].style.display='none';
+                        section.children[1].style.display='none';
                     }
                 else
                     {
-                        subheads.children[1].style.display='inline-block';
+                        section.children[1].style.display='inline-block';
                     }
             }
     }
