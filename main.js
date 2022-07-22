@@ -18,10 +18,10 @@ enter.parentNode.onclick= function()
 
 //SUBHEADINGS DROPDOWN:
 
-let section;
-
 for (let i=0; i<document.getElementsByTagName('section').length; i++)
     {
+        let section;
+
         section=document.getElementsByTagName('section')[i];//This makes the "SECTION" variable become each one of the sections that contain a subheading and a paragraph
 
         section.children[0].onclick= function()
