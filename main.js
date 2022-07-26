@@ -30,10 +30,10 @@ function eventA(subheads,anchors)
                     subheads.children[1].style.display='inline-block';
                 }
         }
-        /*EVENT LISTENERS (triggers)
-        subheads.children[0].addEventListener=('click',drop);
-        anchors.addEventListener=('click',drop);*/
-        subheads.children[0].onclick=drop;
+        //EVENT LISTENERS (triggers)
+        subheads.children[0].addEventListener('click',drop);
+        anchors.addEventListener('click',drop);
+        
     }
         
         
@@ -46,7 +46,7 @@ for (let i=0; i<document.getElementsByTagName('section').length; i++)
         section=document.getElementsByTagName('section')[i];//This makes the "SECTION" variable become each one of the sections that contain a subheading and a paragraph
         //NAVIGATION TRIGGERS
         let links;
-        links=document.getElementsByClassName('link')
+        links=document.getElementsByTagName('a')[i];
         eventA(section,links);
 
         
