@@ -43,8 +43,13 @@ function dropdown(subheads,anchors)
                     subheads.children[1].style.display='inline-block';
                 }
         }
-        //EVENT LISTENERS (triggers)
+        //TRIGGERS
+        //EVENT LISTENERS
         subheads.children[0].addEventListener('click',drop);
         anchors.addEventListener('click',drop);
+
+        //EVENT HANDLERS
+        //subheads.children[0].onclick=drop;
+        //anchors.onclick=drop;
     }
    
