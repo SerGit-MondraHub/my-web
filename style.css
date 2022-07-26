@@ -96,17 +96,15 @@ li
         margin:auto;
     }
     
-section h2:hover
+/*INTERACTIVITY...........*/
+
+section h2:hover, a:hover
     {
         cursor:pointer;
-        color:yellow;
-    }
+        color:rgb(213, 100, 0);
+    }    
 
 .content
     {
         display:none;
-    }
-
-footer
-    {
     }
