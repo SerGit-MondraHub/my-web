@@ -43,10 +43,11 @@ function dropdown(subheads,anchors)
                     subheads.children[1].style.display='inline-block';
                 }
         }
-        //TRIGGERS
-        //EVENT LISTENERS
-        subheads.children[0].addEventListener('click',drop);
-        anchors.addEventListener('click',drop);
+        /*TRIGGERS
+        EVENT LISTENERS
+        subheads.children[0].addEventListener('click',drop); //WORKS!!!
+        anchors.addEventListener('click',drop); //WORKS!!!
+        */
 
         //EVENT HANDLERS
         subheads.children[0].onclick=drop; //WORKS!!!
