@@ -28,7 +28,6 @@ body
 
 #welcome figure
     {
-        background-image: url(resources/pic.jpg);
         cursor:pointer;
         display:inline-flex;
         background-size:220%;

@@ -49,7 +49,7 @@ function dropdown(subheads,anchors)
         anchors.addEventListener('click',drop);
 
         //EVENT HANDLERS
-        //subheads.children[0].onclick=drop;
-        //anchors.onclick=drop;
+        subheads.children[0].onclick=drop; //WORKS!!!
+        anchors.onclick=drop; //DOESN'T WORK!!!
     }
    
